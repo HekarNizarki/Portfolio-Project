@@ -43,7 +43,63 @@ html {
 
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 15px;
+  right: 15px;
   display: none;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+  display: flex;
+  min-height: 20vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 2rem;
+  border-radius: 50%;
+  background: #ffcdb2;
+  overflow: hidden;
+}
+.circle.per-25 {
+  background-image: conic-gradient(#0a0a0a 25%, #b4b1af 0);
+}
+.circle.per-50 {
+  background-image: conic-gradient(#0a0a0a 50%, #b4b1af 0);
+}
+.circle.per-75 {
+  background-image: conic-gradient(#0a0a0a 75%, #b4b1af 0);
+}
+
+.circle.per-85 {
+  background-image: conic-gradient(#0a0a0a 85%, #b4b1af 0);
+}
+
+.circle.per-95 {
+  background-image: conic-gradient(#0a0a0a 95%, #b4b1af 0);
+}
+.circle.per-100 {
+  background-image: conic-gradient(#0a0a0a 99%, #b4b1af 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.75);
 }
