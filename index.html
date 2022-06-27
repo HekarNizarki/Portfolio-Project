@@ -11,11 +11,8 @@
 </head>
 
 <!-- Back to top button -->
-<button
-        type="button"
-        class="btn btn-secondary btn-floating btn-lg"
-        id="btn-back-to-top">
-  <i class="fas fa-arrow-up"></i>
+<button type="button" class="btn btn-secondary btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
 </button>
 <!-- Back to top button ends-->
 
@@ -40,7 +37,7 @@
                     <a class="nav-link" href="#Skill">Skill</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#project">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -72,9 +69,9 @@
 
 
 <!-- about me -->
-<p class="text-center fs-1 mt-5 font-weight-bold">About me</p>
+<p class="text-center fs-1 mt-5 font-weight-bold"id="About_me">About me</p>
 
-<p class="mx-5 mb-5 fs-5 lh-sm about_text" id="About_me">Junior Software engineer, B. SC. in Computer Science passionate
+<p class="mx-5 mb-5 fs-5 lh-sm about_text">Junior Software engineer, B. SC. in Computer Science passionate
     about Mobile Programming with 2-year experience in mobile development (Android native & Flutter) Looking for
     opportunities as a software developer with an expert team of developers who will help advance my career progression
     to senior positions in the future.
@@ -84,76 +81,82 @@
 
 
 <!-- Skill -->
-<p class="font-weight-bold text-center fs-1 mt-5">Skill</p>
+<p class="font-weight-bold text-center fs-1 mt-5" id="Skill">Skill</p>
 
-<div class="wrap-circles" id="Skill">
+<div class="wrap-circles">
     <div class="circle per-95">
-      <div class="inner">C++</div>
+        <div class="inner">C++</div>
     </div>
     <div class="circle per-85">
-      <div class="inner">Dart</div>
+        <div class="inner">Dart</div>
     </div>
     <div class="circle per-75">
-      <div class="inner">JS</div>
+        <div class="inner">JS</div>
     </div>
     <div class="circle per-85">
-      <div class="inner">Java</div>
+        <div class="inner">Java</div>
     </div>
     <div class="circle per-95">
         <div class="inner">Python</div>
-      </div>
-  </div>
+    </div>
+</div>
 <!-- Skill end -->
 
 
 
 <!-- project -->
-<p class="font-weight-bold text-center fs-1 mt-5 mb-5">Projects</p>
+<p class="font-weight-bold text-center fs-1 mt-5 mb-5" id="project">Projects</p>
 
-  <!-- start course -->
-  <div class="courss">
+<div class="courss">
     <div class="container">
         <div class="row">
 
-                <div class="col-md-4 col-6 mb-4">
-                    <div class="card h-100" style="overflow: hidden;">
-                        <img src="./image/cur/download.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="course_detel.html"><h4 class="card-title ">Applied Linux</h4></a>
-                            <p class="card-text">Learn +200 modern & practical industry-proven Linux tools + project-based shell scripting from the beginning</p>
-                            </div>
+            <div class="col-md-4 col-6 mb-4">
+                <div class="card h-100" style="overflow: hidden;">
+                    <img src="./assets/img/project/imresize.jpg" class="card-img-top" alt="Image Re-sizer">
+                    <div class="card-body">
+                        <a href="./project/project1/index.html">
+                            <h4 class="card-title ">Image Re-sizer</h4>
+                        </a>
+                        <p class="card-text">an JavaScript application to resize the image and then save them</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-4 col-6 mb-4">
-                    <div class="card h-100" style="overflow: hidden;">
-                        <img src="./image/cur/download.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="course_detel.html"><h4 class="card-title ">Applied Linux</h4></a>
-                            <p class="card-text">Learn +200 modern & practical industry-proven Linux tools + project-based shell scripting from the beginning</p>
-                            </div>
+            <div class="col-md-4 col-6 mb-4">
+                <div class="card h-100" style="overflow: hidden;">
+                    <img src="./image/cur/download.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="course_detel.html">
+                            <h4 class="card-title ">Applied Linux</h4>
+                        </a>
+                        <p class="card-text">Learn +200 modern & practical industry-proven Linux tools + project-based
+                            shell scripting from the beginning</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-4 col-6 mb-4">
-                    <div class="card h-100" style="overflow: hidden;">
-                        <img src="./image/cur/download.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="course_detel.html"><h4 class="card-title ">Applied Linux</h4></a>
-                            <p class="card-text">Learn +200 modern & practical industry-proven Linux tools + project-based shell scripting from the beginning</p>
-                            </div>
+            <div class="col-md-4 col-6 mb-4">
+                <div class="card h-100" style="overflow: hidden;">
+                    <img src="./image/cur/download.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="course_detel.html">
+                            <h4 class="card-title ">Applied Linux</h4>
+                        </a>
+                        <p class="card-text">Learn +200 modern & practical industry-proven Linux tools + project-based
+                            shell scripting from the beginning</p>
                     </div>
                 </div>
+            </div>
 
 
-               
+
         </div>
-        
+
     </div>
 </div>
-<!-- end course -->
 <!-- project end -->
-    
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -164,8 +167,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-    <script src="code.js"></script>
-    <script src="https://kit.fontawesome.com/e383ddf087.js" crossorigin="anonymous"></script>
+<script src="code.js"></script>
+<script src="https://kit.fontawesome.com/e383ddf087.js" crossorigin="anonymous"></script>
 
 </body>
 
