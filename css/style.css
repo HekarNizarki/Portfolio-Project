@@ -108,3 +108,13 @@ html {
 .contact-us {
   margin-bottom: 100px;
 }
+
+footer {
+  padding-top: 15px;
+  height: 50px;
+  color: antiquewhite;
+}
+
+footer .foot{
+  color: rgb(255, 255, 255);
+}
