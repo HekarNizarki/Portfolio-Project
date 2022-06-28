@@ -46,6 +46,7 @@ html {
   bottom: 15px;
   right: 15px;
   display: none;
+  z-index: 200;
 }
 
 /*** <--- CIRCLE STYLES ---> ***/
