@@ -119,3 +119,16 @@ footer {
 footer .foot {
   color: rgb(255, 255, 255);
 }
+
+/* projects */
+.project-card {
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  transition: 500ms all;
+}
+
+.project-card:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
